@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 
-echo "* * * * * echo php-v" | crontab - && crond -f -L /dev/stdout
+echo "* * * * * php /output.php" | crontab - && crond -f -L /dev/stdout
