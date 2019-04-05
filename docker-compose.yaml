@@ -1,5 +1,5 @@
 version: '3'
 services:
-  docker-container-nodeserver:
+  docker-cron-php:
     build: .
     image: docker-cron-php:latest
